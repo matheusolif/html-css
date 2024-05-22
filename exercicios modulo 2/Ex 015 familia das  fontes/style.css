@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+h1 {
+
+    /* Shorthand sempre na ordem: fonty-style -> font weight -> font-size -> font-family */
+
+    font: italic bold 3em Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font: bold 3em Arial, Helvetica, sans-serif; 
+}

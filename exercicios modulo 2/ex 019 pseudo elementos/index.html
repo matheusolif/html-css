@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo elemtento</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: purple;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: lightpink;
+        }
+
+        .especial {
+            background-color: rgb(163, 114, 114);
+            border-radius: 4px 4px;
+        }
+
+        /* abaixo temos os pseudos elementos*/ 
+        .especial::before {
+            content: "👉";
+        }
+        .especial::after {
+            content: "👈";
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+
+    <li>
+        <a href="https://gustavoguanabara.github.io" target="_blank">Repositório github</a>
+    </li>
+    <li>
+        <a href="https://youtube.com/cursoemvideo/" target="_blank">Canal do youtube</a>
+    </li>
+    <li>
+        <a href="https://www.itau.com.br/" target="_blank" class="especial">Plataforma</a>
+    </li>
+</body>
+</html>
