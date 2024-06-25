@@ -1,1 +1,48 @@
 @charset "UTF-8";
+
+
+:root {
+    --font-1:  Verdana, 'Geneva', Tahoma, sans-serif;
+    --font-2: 'Passion One', 'cursive';
+    --font-3: 'Sriracha', 'cursive';
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+}
+
+html,body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-size: 10vw;
+    font-variant: small-caps;
+
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+pre {
+    white-space: pre-line;
+}
