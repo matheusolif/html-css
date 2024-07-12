@@ -4,8 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+
+    <style>
+
+        table {
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            border-collapse: collapse;
+            
+        }
+        .t1 {
+            background: red;
+
+        }
+
+        td {
+            border:1px solid black;
+            padding: 10px;
+            text-align: right; /* Alinhamento horizontal  */ 
+            vertical-align: middle; /*Alinhamento vertical*/
+            
+            
+        }
+    </style>
 </head>
+
 <body>
+    <h1>Minha primeira Tabela</h1>
     
+    <!--Hierarquia tabela simples
+
+        TABLE
+            TABLE ROW - Linha da tabela
+                TABLLE HEADER - Cabeçalho 
+                TABLE DATA - Dados da tabela
+        
+    -->
+
+    <table>
+        <tr class="t1">
+            <td>Jan</td>
+            <td>Fev</td>
+            <td>Mar</td>
+        </tr>
+
+        <tr>
+            <td>Abr</td>
+            <td>Mai</td>
+            <td>Jun</td>
+        </tr>
+        <tr>
+            <td>Jul</td>
+            <td>Ago</td>
+            <td>Set</td>
+        </tr>
+        <tr>
+            <td>Out</td>
+            <td>Nov</td>
+            <td>Dez</td>
+        </tr>
+    </table>
 </body>
 </html>
