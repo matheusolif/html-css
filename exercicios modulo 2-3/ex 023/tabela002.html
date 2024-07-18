@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>População dos Estados</title>
+
+    <style>
+
+        table {
+            width: 500px;
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        caption {
+            padding: 10px;
+            background-color: lightgray;
+            font-size: 1.5em;
+            border: 2px solid black;
+
+        }
+
+        td,th {
+            border: 1px solid black;
+            padding: 12px;
+            
+            
+        }
+        
+        thead, tfoot {
+            background-color: yellow;
+        }
+
+        .num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1> Hierarquia de Tabela Grande </h1>
+
+    <!--
+        TABLE
+            Capition
+            Thead
+                tr, th
+            Tbody
+                tr,td
+            Tfoot
+                tr,td
+    -->
+
+    <table>
+        <caption> População Estados do Sudeste</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
+            </tr>
+        </thead>
+            
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">44.420.459</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20.538.718</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16.054.524</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">3.833.486</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total</th>
+                <td class="num"><strong>84.847.187</strong></td>
+            </tr>
+        </tfoot>
+
+        <tfoot></tfoot>
+    </table>
+</body>
+</html>
