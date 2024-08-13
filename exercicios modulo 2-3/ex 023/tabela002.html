@@ -14,9 +14,11 @@
         }
         caption {
             padding: 10px;
-            background-color: lightgray;
+            background-color: black;
             font-size: 1.5em;
-            border: 2px solid black;
+            border: 2px solid purple;
+            color: white;
+            font-weight: bold;
 
         }
 
@@ -28,8 +30,15 @@
         }
         
         thead, tfoot {
-            background-color: yellow;
+            background-color:purple;
+            color: white;
         }
+
+        tbody > tr:nth-child(odd) {
+            background-color: rgba(221, 160, 221, 0.509);
+            
+        }
+
 
         .num {
             text-align: right;
@@ -51,7 +60,7 @@
     -->
 
     <table>
-        <caption> População Estados do Sudeste</caption>
+        <caption> População Estados</caption>
         <thead>
             <tr>
                 <th scope="col">Estado</th>
@@ -72,16 +81,37 @@
                 <td>Rio de Janeiro</td>
                 <td class="num">16.054.524</td>
             </tr>
+
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7.055.228</td>
+            </tr>
+
             <tr>
                 <td>Espírito Santo</td>
                 <td class="num">3.833.486</td>
+            </tr>
+
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num">3.658.813</td>
+            </tr>
+
+            
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="num">2.817.068</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="num">2.756.700</td>
             </tr>
         </tbody>
 
         <tfoot>
             <tr>
                 <th scope="row">Total</th>
-                <td class="num"><strong>84.847.187</strong></td>
+                <td class="num"><strong>101.134.996</strong></td>
             </tr>
         </tfoot>
 
