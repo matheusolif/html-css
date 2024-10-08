@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 4</title>
+</head>
+<body>
+    <!--Estudar sobre Regex--> 
+    <h1>Cadastro de Telefone e Email</h1>
+
+    <form action="" method="get">
+
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" min="6" maxlength="30" autocomplete="email" required>
+                <label for="contato">Telefone</label>
+                <input type="tel" name="telefone" id="contato" autocomplete="tel" pattern="^\(\d{2}\)\d{8,9}$"    placeholder="(xx)xxxxxxxxx">
+            </div>
+        </fieldset>
+       
+        <div>
+            <br>
+            <button type="submit"> Enviar</button>
+        </div>
+        
+    </form>
+
+</body>
+</html>
