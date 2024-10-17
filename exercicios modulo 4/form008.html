@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 8</title>
+</head>
+<body>
+    <form action="#" method="get">
+
+        <div>
+            <label for="in1">1ºNúmero:</label>
+            <input type="number" name="n1" id="in1" required min="-10" max="50" oninput="isoma.innerHTML = Number (in1.value) + Number (in2.value)">
+        </div>
+
+        <div>
+            <label for="in2">2ºNúmero:</label>
+            <input type="number" name="n2" id="in2" required min="-10" max="50" oninput="isoma.innerHTML = Number (in1.value) + Number (in2.value)">
+        </div>
+
+        <div>
+            <label for="isoma">Soma</label>
+            <output name="Soma" id="isoma">0</output>
+        </div>
+
+        <div>
+            <label for="ini">Nível</label>
+            <input type="range" name="level" id="ini" min="0" max="10" value="5" oninput="inivel.innerHTML = Number (ini.value)">
+            <output id="inivel">5</output>
+        </div>
+
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
