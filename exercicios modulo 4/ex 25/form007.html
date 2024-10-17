@@ -1,36 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulário 7</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Preencha as opções</h1>
 
     <form action="#" method="post">
+      <div>
+        <label for="lista">Estado:</label>
+        <select name="estado" id="lista">
+            <option selected>--Clique--</option>
+          <optgroup label="Suldeste">
+            <option value="SP">São Paulo</option>
+            <option value="MG" >Minas Gerais</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="ES">Espírito Santo</option>
+          </optgroup>
 
-        <div>
-            <label for="lista" >Estado:</label>
-            <select name="estado" id="lista">
-                <option value="SP">São Paulo</option>
-                <option value="MG" selected >Minas Gerais </option>
-                <option value="RJ">Rio de Janeiro</option>
-                <option value="ES">Espírito Santo</option>
-            </select>
-        </div>
+          <optgroup label="Sul">
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="PR">Paraná</option>
+          </optgroup>
+        </select>
+      </div>
 
-        <div>
-            <label for="profissao">Profissão:</label>
-            <input type="text"  id="profissao"   list="listprof">
-            <datalist id="listprof">
-                <option value="Contador">Contador</option>
-                <option value="Bombeiro">Bombeiro</option>
-                <option value="Motorista">Motorista</option>
+      <div>
+        <br />
+        <label for="profissao">Profissão:</label>
+        <input type="text" name="myprof" id="profissao" list="ocupacao" placeholder="Digite ou Escolha" />
+        <datalist id="ocupacao">
+          <option value="Contador"></option>
+          <option value="Acogueiro"></option>
+          <option value="Motorista"></option>
+        </datalist>
+      </div>
 
-            </datalist>
-        </div>
-
+      <div>
+        <br />
+        <label for="texto"> Escreva o que você faz no Trabalho:</label> <br />
+        <textarea
+          name="text"
+          id="texto"
+          placeholder="digite aqui"
+          rows="10"
+          cols="30"
+          style="resize: none;"
+        ></textarea>
+      </div>
     </form>
-</body>
+  </body>
 </html>
