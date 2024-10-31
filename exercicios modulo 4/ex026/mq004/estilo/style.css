@@ -41,10 +41,9 @@ img {
     
 }
 
-.celular { display: block;}
-.tablete { display: none;}
-.impressora { display: none;}
-.computador {display: none;}
-.tv { display: none;}
+#celular { display: block;}
+#tablete { display: none;}#impressora { display: none;}
+#computador {display: none;}
+#tv { display: none;}
 
 
