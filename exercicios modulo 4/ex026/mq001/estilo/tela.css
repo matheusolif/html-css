@@ -24,20 +24,32 @@ h1 {
     font-size: 2.5em;
     text-align: center;
     padding: 40px;
+    border-bottom: 4px solid yellow;
 }
 
-a {
+menu  {
+    background-color: rgb(1, 1, 198);
+    padding-top: 10px;
+    padding-bottom: 3px;
+    border-top: 4px solid rgb(1, 167, 1);
+}
+ 
+
+menu ul {
+    list-style-type: none;
+}
+menu li {
+    display: inline;
+    padding: 10px 10px 1px 10px;
     color: white;
-    text-decoration: none;
-    margin-left: 10px;
-    padding: 8px 8px 0px 8px;
-    background-color: gray;
-    border-radius: 4px 4px 0px 0px;
+    
+    
 }
 
-a:hover {
-    text-decoration: underline;
+li:hover {
+    background-color: rgb(201, 200, 200);
     color: black;
+    padding-bottom: 3px;
 }
 article {
     width: 600px;
