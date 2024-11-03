@@ -22,15 +22,28 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-menu {
-    display: block;
+#menu {
+    background-color: #161616;
+    color: #9a6f11;
+    display:block;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#menu:hover {
+    background-color: #9a6f11;
+    color: #161616;
+}
+nav {
+    display: none;
 }
 
 ul {
     list-style-type: none;
 }
 
-menu a {
+nav a {
     display: block;
     color: white;
     padding: 10px;
@@ -40,7 +53,7 @@ menu a {
     border: 1.5px solid #9a6f11;
 }
 
-menu>ul>li>a:hover {
+nav>ul>li>a:hover {
     background-color: #353535;
 }
 
