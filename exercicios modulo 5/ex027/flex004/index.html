@@ -4,32 +4,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flax box</title>
-    <style>
-        .conteiner {
-            background-color: blue;
-            display: flex;
-            height: 200px;
-            flex-flow: row nowrap;
-            align-items: center ;
-        }
-        .item {
-            background-color: green;
-            border: solid 1px black;
-            text-align: center;
-            padding: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="estilo/style.css">
+    
 </head>
 <body>
-    <div class="conteiner">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">F</div>
-        <div class="item">G</div>
-    </div>
+    <h1>Flex-flow: row nowrap </h1>
+
+    <main>
+        <section>
+            <h2>justify-content: start</h2>
+            <div id="flex-start">
+            
+                <div class="item">A</div>
+                <div class="item">B</div>
+                <div class="item">C</div>
+                <div class="item">D</div>
+                <div class="item">E</div>
+                <div class="item">F</div>
+                <div class="item">G</div>
+            </div>
+            <h2>justify-content: end</h2>
+            <div id="flex-end">
+            
+                <div class="item">A</div>
+                <div class="item">B</div>
+                <div class="item">C</div>
+                <div class="item">D</div>
+                <div class="item">E</div>
+                <div class="item">F</div>
+                <div class="item">G</div>
+            </div>
+            <h2>justify-content: center</h2>
+            <div id="center">
+            
+                <div class="item">A</div>
+                <div class="item">B</div>
+                <div class="item">C</div>
+                <div class="item">D</div>
+                <div class="item">E</div>
+                <div class="item">F</div>
+                <div class="item">G</div>
+            </div>
+            <h2>justify-content: space-between</h2>
+            <div id="space-between">
+                <div class="item">A</div>
+                <div class="item">B</div>
+                <div class="item">C</div>
+                <div class="item">D</div>
+                <div class="item">E</div>
+                <div class="item">F</div>
+                <div class="item">G</div>
+            </div>
+            <h2>justify-content: around</h2>
+            <div id="space-around">
+                <div class="item">A</div>
+                <div class="item">B</div>
+                <div class="item">C</div>
+                <div class="item">D</div>
+                <div class="item">E</div>
+                <div class="item">F</div>
+                <div class="item">G</div>
+            </div>
+        </section>
+
+        <h1>Flex-flow: column nowrap </h1>
+
+        <h2>justify-content: start</h2>
+        <div class="flex-start">
+            <div class="item">A</div>
+            <div class="item">B</div>
+            <div class="item">C</div>
+            <div class="item">D</div>
+            <div class="item">E</div>
+            <div class="item">F</div>
+            <div class="item">G</div>
+        </div>
+
+        <h2>justify-content: end</h2>
+        <div class="flex-end">
+        
+            <div class="item">A</div>
+            <div class="item">B</div>
+            <div class="item">C</div>
+            <div class="item">D</div>
+            <div class="item">E</div>
+            <div class="item">F</div>
+            <div class="item">G</div>
+        </div>
+
+        <h2>justify-content: center</h2>
+        <div class="center">
+        
+            <div class="item">A</div>
+            <div class="item">B</div>
+            <div class="item">C</div>
+            <div class="item">D</div>
+            <div class="item">E</div>
+            <div class="item">F</div>
+            <div class="item">G</div>
+        </div>
+
+        <h2>justify-content: space-between</h2>
+        <div class="space-between">
+            <div class="item">A</div>
+            <div class="item">B</div>
+            <div class="item">C</div>
+            <div class="item">D</div>
+            <div class="item">E</div>
+            <div class="item">F</div>
+            <div class="item">G</div>
+        </div>
+
+        <h2>justify-content: around</h2>
+        <div class="space-around">
+            <div class="item">A</div>
+            <div class="item">B</div>
+            <div class="item">C</div>
+            <div class="item">D</div>
+            <div class="item">E</div>
+            <div class="item">F</div>
+            <div class="item">G</div>
+        </div>
+    </main>
     
 </body>
 </html>

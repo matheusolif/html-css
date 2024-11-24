@@ -1,0 +1,81 @@
+#flex-start {
+  background-color: blue;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+#flex-end {
+  background-color: blue;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+#center {
+  background-color: blue;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+#space-between {
+  background-color: blue;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+#space-around {
+  background-color: blue;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.item {
+  background-color: green;
+  border: solid 1px black;
+  text-align: center;
+  padding: 2px 2px 2px 2px;
+}
+
+.flex-start {
+  background-color: blue;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  height: 300px;
+}
+
+.flex-end {
+  background-color: blue;
+  display: flex;
+  height: 300px;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+}
+
+.center {
+  background-color: blue;
+  display: flex;
+  height: 300px;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.space-between {
+  background-color: blue;
+  display: flex;
+  height: 300px;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.space-around {
+  background-color: blue;
+  display: flex;
+  height: 300px;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+}
