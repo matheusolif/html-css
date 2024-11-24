@@ -26,6 +26,13 @@
   justify-content: space-between;
 }
 
+#space-evenly {
+  background-color: blue;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
 #space-around {
   background-color: blue;
   display: flex;
@@ -74,6 +81,15 @@
   width: 200px;
   flex-flow: column nowrap;
   justify-content: space-between;
+}
+
+.space-evenly {
+  background-color: blue;
+  display: flex;
+  height: 300px;
+  width: 200px;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
 }
 
 .space-around {

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Align-items</title>
+
+    <style>
+    .stretch {
+        background-color: blue;
+        display: flex;
+        height: 300px;
+        width: 200px;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: stretch; /*padrão*/
+        
+      }
+
+    .flex-start {
+        background-color: blue;
+        display: flex;
+        height: 300px;
+        width: 200px;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: flex-start;
+      }
+      .flex-end {
+        background-color: blue;
+        display: flex;
+        height: 300px;
+        width: 200px;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        align-items: flex-end;
+      }
+      .center{
+        background-color: blue;
+        display: flex;
+        height: 300px;
+        width: 200px;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        align-items: center;
+      }
+
+      .item {
+        background-color: green;
+        border: solid 1px black;
+        text-align: center;
+        padding: 2px 2px 2px 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Flex-flow: column nowrap</h1>
+
+      <h2>Align-items: stretch</h2>
+      <div class="stretch">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+      </div>
+
+      <h2>Align-items: flex-start</h2>
+      <div class="flex-start">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+      </div>
+
+      <h2>Align-items: flex-end</h2>
+      <div class="flex-end">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+      </div>
+
+      <h2>Align-items: center</h2>
+      <div class="center">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+      </div>
+    </main>
+  </body>
+</html>
