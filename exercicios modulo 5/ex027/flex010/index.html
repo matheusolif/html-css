@@ -8,11 +8,15 @@
         .container {
             background-color: blue;
             display: flex;
+            flex-flow: row nowrap;
         }
         .item {
             background-color: green;
             border: solid 1px black;
-            flex: auto;
+            text-align: center;
+            flex-basis: 300px;
+            flex-shrink: 1;
+            flex-grow: 0;
         }
     </style>
 </head>
@@ -22,8 +26,7 @@
         <div class="item">A</div>
         <div class="item">B</div>
         <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
+        
     </div>
     
 </body>
