@@ -14,24 +14,23 @@
             background-color: green;
             border: solid 1px black;
             text-align: center;
-            
+            flex-basis: 300px;
             
         }
 
-        /*flex: grow+shrink+basis*/
         div#cxa{
             flex-shrink: 1;
             flex-grow: 1;
-            flex-basis: 300px;
         }
 
         div#cxb{
-            
-            flex: 0 0 200px;
+            flex-shrink:0 ;
+            flex-grow: 0;
         }
 
        div#cxc{
-           flex: 1 2 auto;
+           flex-shrink: 0;  
+           flex-grow: 2;
         }
     </style>
 </head>
